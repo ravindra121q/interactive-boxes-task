@@ -1,0 +1,182 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.bogo-container {
+  max-width: 400px;
+  width: 100%;
+  border: 1px solid #eee;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  color: #f75b83;
+  margin-bottom: 1.5rem;
+}
+
+.offer-box {
+  border: 2px solid #eee;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  position: relative;
+  display: block;
+  cursor: pointer;
+  transition: border 0.3s;
+}
+
+.offer-box input[type="radio"] {
+  margin-right: 10px;
+  transform: scale(1.2);
+}
+
+.offer-box .box-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.offer-box .tag {
+  background: #f75b83;
+  color: white;
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: 8px;
+}
+
+.offer-box .desc {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.offer-box .price {
+  font-weight: bold;
+}
+
+.offer-box .old-price {
+  text-decoration: line-through;
+  font-size: 0.75rem;
+  color: #aaa;
+}
+
+.offer-box.popular {
+  border-color: #f75b83;
+  background: #fff5f8;
+}
+
+.most-popular {
+  position: absolute;
+  top: -12px;
+  right: -2px;
+  background: #f75b83;
+  color: white;
+  font-size: 0.7rem;
+  padding: 3px 6px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.selectors {
+  margin-top: 1rem;
+}
+
+.selectors div {
+  margin-bottom: 0.5rem;
+}
+
+.selectors select {
+  margin-left: 0.5rem;
+  padding: 3px;
+}
+
+
+.details {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.5s ease, opacity 0.5s ease;
+  padding-top: 0;
+}
+
+.offer-box.active .details {
+  max-height: 500px;
+  opacity: 1;
+  padding-
+}
+
+.offer-box {
+  border: 2px solid #eee;
+  transition: border 0.3s;
+}
+
+
+.offer-box.active {
+  border-color: #f75b83;
+}
+
+
+.offer-box.popular {
+  background: #fff5f8;
+}
+
+
+.details {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.5s ease, opacity 0.5s ease;
+  padding-top: 0;
+}
+
+.offer-box.active .details {
+  max-height: 500px;
+  opacity: 1;
+  padding-top: 1rem;
+}
+
+
+.cart-btn {
+  background: #f75b83;
+  color: white;
+  padding: 0.75rem;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+
+.offer-box {
+  border: 2px solid #eee;
+  transition: border 0.3s;
+}
+
+
+.offer-box.popular {
+  background: #fff5f8;
+  border-color: #eee;
+}
+
+
+.offer-box.active {
+  border-color: #f75b83;
+}
+
+
+.offer-box.popular.active {
+  border-color: #f75b83;
+}
+
+.footer{
+  text-align: center;
+  margin-top: 2rem;
+}
