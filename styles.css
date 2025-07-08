@@ -67,8 +67,8 @@ h2 {
 }
 
 .offer-box.popular {
-  border-color: #f75b83;
   background: #fff5f8;
+  border-color: #eee;
 }
 
 .most-popular {
@@ -96,37 +96,6 @@ h2 {
   padding: 3px;
 }
 
-
-.details {
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  transition: max-height 0.5s ease, opacity 0.5s ease;
-  padding-top: 0;
-}
-
-.offer-box.active .details {
-  max-height: 500px;
-  opacity: 1;
-  padding-
-}
-
-.offer-box {
-  border: 2px solid #eee;
-  transition: border 0.3s;
-}
-
-
-.offer-box.active {
-  border-color: #f75b83;
-}
-
-
-.offer-box.popular {
-  background: #fff5f8;
-}
-
-
 .details {
   max-height: 0;
   overflow: hidden;
@@ -141,6 +110,9 @@ h2 {
   padding-top: 1rem;
 }
 
+.offer-box.active {
+  border-color: #f75b83;
+}
 
 .cart-btn {
   background: #f75b83;
@@ -154,29 +126,7 @@ h2 {
   margin-top: 0.5rem;
 }
 
-
-.offer-box {
-  border: 2px solid #eee;
-  transition: border 0.3s;
-}
-
-
-.offer-box.popular {
-  background: #fff5f8;
-  border-color: #eee;
-}
-
-
-.offer-box.active {
-  border-color: #f75b83;
-}
-
-
-.offer-box.popular.active {
-  border-color: #f75b83;
-}
-
-.footer{
+.footer {
   text-align: center;
   margin-top: 2rem;
 }
