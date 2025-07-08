@@ -57,6 +57,6 @@ This project is  layout built using **HTML, CSS, and vanilla JavaScript**, creat
 
 ## 📞 Contact
 
-**Ravindra** - raivndra.dev07@gmail.com
+**Ravindra** - ravindra.dev07@gmail.com
 
 📂 **Project Link:** [https://github.com/ravindra121q/interactive-boxes-task](https://github.com/ravindra121q/interactive-boxes-task)
